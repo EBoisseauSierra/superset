@@ -144,7 +144,7 @@ setup(
         "postgres": ["psycopg2-binary==2.8.5"],
         "presto": ["pyhive[presto]>=0.4.0"],
         "trino": ["sqlalchemy-trino>=0.2"],
-        "prophet": ["fbprophet>=0.7.1, <0.8", "pystan<3.0"],
+        "prophet": ["prophet>=1.0.1", "pystan==2.19.1.1"],
         "redshift": ["sqlalchemy-redshift>=0.8.1, < 0.9"],
         "snowflake": ["snowflake-sqlalchemy>=1.2.3, <1.3"],
         "teradata": ["sqlalchemy-teradata==0.9.0.dev0"],
